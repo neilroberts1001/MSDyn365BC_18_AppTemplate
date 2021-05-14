@@ -16,7 +16,7 @@ steps:
   inputs:
     artifacttype: 'Sandbox'
     artifactcountry: 'w1'
-    versionselect: 'nextminor'
+    versionselect: 'nextmajor'
     sastoken: '$(bc.sasToken)'
 
 - task: ALOpsDockerStart@1

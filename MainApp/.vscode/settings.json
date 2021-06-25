@@ -1,6 +1,4 @@
 {
-    "extensions.autoUpdate": false,
-    "files.autoSave": "off",
     "al.enableCodeAnalysis": true,
     "al.codeAnalyzers": [
         "${CodeCop}",
@@ -9,7 +7,6 @@
     ],
     "al.ruleSetPath": ".\\Rules\\general.ruleset.json",
     "git.autofetch": true,
-    "git.autorefresh": true,
     "CRS.RenameWithGit": false,
     "CRS.OnSaveAlFileAction": "Reorganize",
     "CRS.RemoveSuffixFromFilename": false,
